@@ -1,0 +1,52 @@
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>How's the Weather</title>
+        <link rel="stylesheet" type="text/css" href="/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="title">
+      How's the Weather?
+    </div>
+    <div class="location">
+      <span id="city">CITY</span>, <span id="state">STATE</span>, <span id="country">COUNTRY</span>
+    </div>
+    <div class="weather-state">
+      CLOUDY WITH A CHANCE OF MEATBALLS
+    </div>
+    <div class="wind">
+      Wind: <span id="wind">WIND</span>
+    </div>
+    <div>
+      <img class="icon img-resize" src="">
+    </div>
+    <div class="temp">
+      It is currently <span id="temperature">999 &#8457</span>
+    </div>
+    <div class="feels-like-temp">
+      It feels like <span id="feelslike-temperature">999 &#8457</span>
+    </div>
+    <div class="btn-group" data-toggle="buttons">
+      <label class="btn btn-primary active fahrenheit">
+      <input type="radio" name="temps" id="fahrenheit" autocomplete="off" checked>&#8457
+    </label>
+      <label class="btn btn-primary celsius">
+      <input type="radio" name="temps" id="celsius" autocomplete="off">&#8451
+    </label>
+    </div>
+    <br><br>
+    <footer>
+      <p>A big thanks to <img class="img-shrink" src="https://icons.wxug.com/logos/PNG/wundergroundLogo_4c.png"> for the data</p>
+    </footer>
+  </div>
+</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</html>
